@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: pink;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.key{
+    text-align: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-style: solid;
+    padding: 2rem;
+}
+.key:hover{
+    /* background-color: rgba(255, 156, 173, 0.615); */
+    cursor: pointer;
+    transform: scale(1.01);
+}
